@@ -1,0 +1,480 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Avenir Next Cyr Medium';
+  src: url("/fonts/AvenirNextCyr-Medium.eot");
+  src: url("/fonts/AvenirNextCyr-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/AvenirNextCyr-Medium.woff") format("woff"), url("/fonts/AvenirNextCyr-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr Regular';
+  src: url("/fonts/AvenirNextCyr-Regular.eot");
+  src: url("/fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/AvenirNextCyr-Regular.woff") format("woff"), url("/fonts/AvenirNextCyr-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url("/fonts/BebasNeueBold.eot");
+  src: url("/fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("/fonts/BebasNeueBold.woff") format("woff"), url("/fonts/BebasNeueBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Avenir Next Cyr Regular';
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background: #192430 url("/img/adult-attractive-beautiful-1638324 копия 2.png") no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 36px;
+  height: 794px;
+}
+
+.header-title {
+  max-width: 641px;
+  line-height: 1;
+  font-size: 106px;
+  text-transform: uppercase;
+  font-family: "BebasNeueBold";
+  margin-bottom: 30px;
+  margin-top: -134px;
+}
+
+.header-subtitle {
+  display: block;
+  font-size: 27px;
+  margin-bottom: 84px;
+}
+
+.header-btn {
+  text-transform: uppercase;
+  text-shadow: 0 2px 21px rgba(239, 255, 252, 0.46);
+  background-color: #23dcb8;
+  background-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%);
+  padding: 30px 58px;
+  border: none;
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 18px;
+  -webkit-box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+          box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+  display: block;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header-btn:hover {
+  background: #6e837f;
+  color: #000;
+}
+
+.navbar {
+  margin-bottom: 224px;
+}
+
+.navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-logo__name {
+  margin-right: 39px;
+  font-size: 26px;
+}
+
+.navbar-logo__line {
+  display: block;
+  width: 1px;
+  height: 30px;
+  background-color: #475967;
+}
+
+.navbar-logo__description {
+  font-size: 16px;
+  padding-left: 39px;
+  border-left: 1px solid #fff, 0.2;
+}
+
+.navbar-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-phone {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+  list-style: none;
+}
+
+.navbar-social__item {
+  padding: 0;
+  margin-right: 16px;
+}
+
+.navbar-social__item:last-child {
+  margin-right: 0;
+}
+
+.navbar-social__item .icon {
+  color: #fff;
+}
+
+.sentence-header {
+  width: 100%;
+  text-align: center;
+}
+
+.sentence-header__text {
+  font-size: 48px;
+  font-family: "BebasNeueBold";
+  color: #212f3d;
+  margin-top: 110px;
+}
+
+.sentence-box {
+  margin-bottom: 100px;
+}
+
+.sentence-box__img {
+  height: 90px;
+  width: 90px;
+  margin-bottom: 45px;
+}
+
+.sentence-box__text {
+  text-align: center;
+  font-family: "Avenir Next Cyr Medium";
+  font-size: 20px;
+  color: #212f3d;
+}
+
+.information {
+  background: url("/img/2.png") no-repeat;
+  margin-top: 50px;
+  height: 706px;
+}
+
+.information-box__header {
+  font-size: 48px;
+  color: #212f3d;
+  font-family: "BebasNeueBold";
+  margin-top: 130px;
+}
+
+.information-box__text {
+  font-size: 20px;
+  margin-top: 65px;
+  color: #212f3d;
+  font-family: "Avenir Next Cyr Medium";
+}
+
+.information-box__button {
+  margin-top: 90px;
+  background-color: #fff;
+  border: 2px solid #28c4a6;
+  border-radius: 50px;
+  width: 259px;
+  height: 66px;
+  font-size: 18px;
+  font-family: "Avenir Next Cyr Medium";
+  color: #28c4a6;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.information-box__button:hover {
+  background-color: #28c4a6;
+  color: #fff;
+}
+
+.form-header {
+  font-size: 48px;
+  color: #212f3d;
+  font-family: "BebasNeueBold";
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+
+.form-text {
+  font-size: 20px;
+  color: #212f3d;
+  font-family: "Avenir Next Cyr Medium";
+  margin-bottom: 70px;
+}
+
+.form-forms__input {
+  height: 65px;
+  width: 360px;
+  border-radius: 6px;
+  border: none;
+  background-color: #eff4f3;
+  color: #6e837f;
+  font-size: 16px;
+  font-family: "Avenir Next Cyr Regular";
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
+.form-span {
+  font-size: 14px;
+  color: #6e837f;
+  font-family: "Avenir Next Cyr Regular";
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.form-span__link {
+  color: #6e837f;
+}
+
+.form-button {
+  text-transform: uppercase;
+  text-shadow: 0 2px 21px rgba(239, 255, 252, 0.46);
+  background-color: #23dcb8;
+  background-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%);
+  padding: 30px 58px;
+  border: none;
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 18px;
+  -webkit-box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+          box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31);
+  display: block;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.form-button:hover {
+  background: #6e837f;
+  color: #000;
+}
+
+.footer {
+  background: url("/img/3.png") no-repeat center center;
+  height: 919px;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.footer-wrapper {
+  height: 871px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-header {
+  font-family: "BebasNeueBold";
+  font-size: 48px;
+  color: #fff;
+  margin-top: 135px;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -529px;
+}
+
+.footer-social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 76px;
+  height: 76px;
+  margin-left: 20px;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer-social__link:hover {
+  background-color: #16ba9a;
+  border: none;
+  color: #000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer-social__icon {
+  color: #fff;
+  font-size: 30px;
+}
+
+.footer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer-box__text {
+  font-size: 20px;
+  color: #727977;
+  font-family: "Avenir Next Cyr Medium";
+}
+
+@media (max-width: 991px) {
+  .header .navbar-logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+  .header-title {
+    font-size: 80px;
+    text-align: center;
+  }
+  .header-subtitle {
+    text-align: center;
+  }
+  .header-btn {
+    margin: 0 auto;
+  }
+  .information {
+    background: url(/img/2.png) no-repeat 171% 171%;
+    background-size: 580px;
+  }
+  .form-forms {
+    text-align: center;
+  }
+  .form-forms__input {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .information {
+    background: none;
+    margin-top: 0;
+    height: 580px;
+  }
+  .information-box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .header .navbar-logo__name {
+    font-size: 13px;
+  }
+  .header .navbar-logo__description {
+    font-size: 13px;
+  }
+  .header .navbar-phone {
+    font-size: 13px;
+  }
+  .header-title {
+    font-size: 52px;
+  }
+  .header-btn {
+    font-size: 13px;
+  }
+  .sentence-header__text {
+    font-size: 28px;
+  }
+  .information-box__header {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  .form-header {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  .form-text {
+    text-align: center;
+  }
+  .form-forms__input {
+    width: 270px;
+  }
+  .form-span {
+    text-align: center;
+  }
+  .form-button {
+    font-size: 13px;
+  }
+  .footer-header {
+    font-size: 28px;
+  }
+  .footer-social__link {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-social__icon {
+    font-size: 20px;
+  }
+  .footer-box__text {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
